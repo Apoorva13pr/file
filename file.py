@@ -45,5 +45,6 @@ while(True):
             print('Deleted sucessfully")
         case 5:
             print("Rename")
+            os.rename("old_name","new_name")
         case 6:
             print("Stop the program")
